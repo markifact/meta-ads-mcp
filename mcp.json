@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "meta-ads": {
+      "type": "http",
+      "url": "https://api.markifact.com/mcp/meta-ads"
+    }
+  }
+}

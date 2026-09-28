@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.markifact/meta-ads",
+  "title": "Meta Ads MCP by Markifact",
+  "description": "Meta Ads MCP: Facebook and Instagram reports, campaigns, creatives, audiences. Approval on writes.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.markifact.com/meta-ads-mcp",
+  "repository": {
+    "url": "https://github.com/markifact/meta-ads-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.markifact.com/mcp/meta-ads"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "categories": [
+        "marketing",
+        "advertising",
+        "analytics"
+      ],
+      "tags": [
+        "meta-ads",
+        "facebook-ads",
+        "instagram-ads",
+        "marketing-api",
+        "advantage-plus",
+        "mcp",
+        "marketing"
+      ],
+      "license": "MIT",
+      "privacyPolicyUrl": "https://www.markifact.com/privacy-policy",
+      "termsOfServiceUrl": "https://www.markifact.com/terms-conditions",
+      "supportContact": "contact@markifact.com",
+      "authentication": {
+        "type": "oauth2",
+        "flow": "authorization_code",
+        "pkceRequired": true,
+        "protectedResourceMetadataUrl": "https://api.markifact.com/.well-known/oauth-protected-resource/mcp/meta-ads"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "meta-ads",
+  "version": "1.0.0",
+  "description": "Meta Ads MCP server for Facebook and Instagram ads: reports with breakdowns, campaigns, ad sets, ads, creatives, audiences and catalogs, with approval on every write. Hosted, OAuth, no local install.",
+  "mcpServers": {
+    "meta-ads": {
+      "url": "https://api.markifact.com/mcp/meta-ads",
+      "type": "http",
+      "timeout": 120000,
+      "oauth": {
+        "authorizationUrl": "https://www.markifact.com/oauth/authorize",
+        "tokenUrl": "https://api.markifact.com/oauth/token",
+        "registrationUrl": "https://www.markifact.com/oauth/register",
+        "scopes": [
+          "mcp"
+        ]
+      }
+    }
+  }
+}
